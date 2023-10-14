@@ -6,7 +6,14 @@ This project focuses on the description of Lens excitation effects and conjugate
 
 <img src="https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/c4cef2ad-4957-4ff0-b044-97791df76124" width="800px">
 
+对于beam blank 这个系统，主要是通过一个极板施加电压，偏转电子束到光阑孔外达到关闭束流的效果。在偏转过程中，由于电路装置的限制和电容充放过程中的溢出以及延迟效应，会导致电压的激增，和过度反馈。这个激增过程会导致电子束在相空间分布产生影响。这时候在样品上的束斑会发生偏移，这会导致曝光的线条产生偏差。对于精细的微纳结构这种影响时致命的。会导致两个不相连的结构导通。这种现象会随着扫描速度的增加而影响更加剧烈。目前为了实现高频的扫描速度，我们通常会使用
+
 **对于电子偏移量的计算流程**
+
+
+
+![image](https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/e2df3a5c-3162-4485-aec1-1028d22e2088)
+
 
 
 <img src="https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/ba6ca019-8fae-453f-b09d-40f010494a9d" width="800px">
