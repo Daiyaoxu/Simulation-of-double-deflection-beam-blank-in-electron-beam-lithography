@@ -1,6 +1,6 @@
 # Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography
 
-**工作的具体结果可以查看PPT 文件**
+**The exact results of the work can be viewed in a PowerPoint file**
 
 This project focuses on the description of Lens excitation effects and conjugate blanking optics to understand the effect of the electron beam blanking on the electron beam through the trajectory equation.We can ascertain the impact of the Beam Blank design on exposure processing through simulation calculations.
 
@@ -43,11 +43,16 @@ After obtaining the voltage data, we can follow the structure of the device and 
 
 <img src="https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/ba6ca019-8fae-453f-b09d-40f010494a9d" width="500px">
 
+Single deflector pole plate beam blank, end transverse deflection displacement magnitude, middle arrow site is beam open state.
 
 <img src="https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/8ca08e89-4c77-479c-8cf9-be8e0d77b94a" width="500px">
 
+By calculating the inverse extension of the trajectory, we can calculate the offset error of the image plane, and by multiplying this error by the magnification of the objective lens, we can calculate the error under the actual electron-beam lithography, and we can see that the error mainly occurs when the deflection voltage is turned on and off, with an offset of about 20 nm.
 
 <img src="https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/c9779f57-c00f-4939-8459-ba331bdaa7c3" width="500px">
 
+Subsequently, through the Gaussian distribution function, we can practically restore the results of the electron beam lithography, as shown in the following figure, the left side is the ideal target pattern at a scanning frequency of 5Mhz, and the right figure is the calculated results based on the computational simulation.
+
 <img src="https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/a9cdf4fc-1895-4374-a276-eae5af5987a8" width="500px">
 
+This part of the detailed process can be viewed in the PowerPoint file.
