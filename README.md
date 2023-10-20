@@ -15,15 +15,9 @@ The primary function of the Beam Blank system is to deviate the electron beam by
 
 Gesley, M. (1993). An electron optical theory of beam blanking. Review of Scientific Instruments, 64(11), 3169–3190. https://doi.org/10.1063/1.1144326
 
-
-### For the electronic offset calculation process
+** For the electronic offset calculation process**
 
 ![image](https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/e2df3a5c-3162-4485-aec1-1028d22e2088)
-
-$$\Delta s_i$$是电子在离开beam blank末端的位移，其中M为物镜的放大倍数，a(t)时间相关加速度$$-\frac{e_0 V(t)}{m d}$$，τ和λ为用于积分的临时变量，通过最终的横向位移和横向速度可以计算出
-
-
-
 
 
 **Fundamental equation **
@@ -32,11 +26,20 @@ $$
 \Delta s_i=\frac{1}{M}\left[\int_0^{t_0}\left(\int_0^\lambda a(\tau) d \tau\right) d \lambda-\frac{1}{2} t_0 \int_0^{t_0} a(\tau) d \tau\right]
 $$
 
+s is the displacement of the electron at the end of leaving the beam blank, where M is the magnification of the objective lens, and a(t) the time-dependent acceleration, where
+
+$$a(t)=-\frac{e_0 V(t)}{m d}$$
+
+τ and λ are temporary variables used for integration, and the exposure error can be calculated from the final transverse displacement and transverse velocity
+
 ### Error analysis of a single deflector
+
+With actual circuit measurements, we can obtain a specific representation of the step function, as shown in the figure on the left. The whole step response process is about 130ns. there will be 5% over response. By fitting we can get a specific expression for the step function. The transfer function of the system can be obtained by calculating the step response function. This process can help us for the futher beam blank system design process.
 
 
 <img src="https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/4e3daed9-fb45-44f1-afb4-4a8daca09341" width="500px">
 
+After obtaining the voltage data, we can follow the structure of the device and the following figure shows the basic structure of the beam blank we calculated.
 
 <img src="https://github.com/Daiyaoxu/Simulation-of-double-deflection-beam-blank-in-electron-beam-lithography/assets/130887176/ba6ca019-8fae-453f-b09d-40f010494a9d" width="500px">
 
